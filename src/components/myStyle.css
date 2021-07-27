@@ -1,0 +1,140 @@
+
+.text {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  color: #9C9C9C;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+ 
+}
+.text2{
+    color:white;
+}
+.rectangle {
+    width: 940px;
+	height: 402px;
+	position: absolute;
+	top: 387px;
+	bottom: 111;
+	left: 250px;
+	right: 250px;
+  	margin: auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.textdefault {
+    position: absolute;
+    left: 0;
+    top:242px;
+    bottom:10px;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.image {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #000000;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.SearchBars {
+    position:absolute;
+    width:940px;
+    height:80px;
+    left: 250px;
+    top: 275px;
+    right:250px;
+    margin:auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border:1px solid #FFFFFF;
+    font-size: x-large;
+    caret-color: #C4C4C4;
+    text-indent: 20px;
+}
+.dataResult {
+    background: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 0px 4px 40px 20px rgba(50, 115, 246, 0.15);
+    border-radius: 12px;
+    z-index: 9;
+    width: 940px;
+	height:234px;
+	position: absolute;
+	top: 387px;
+	bottom: 111;
+	left: 250px;
+	right: 250px;
+  	margin: auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background: none;
+    border: none;
+}
+
+.dataItem p {
+  color:#000000;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+.map-container {
+  height: 402px;
+  border-radius: 12px;
+  }
+
+.rad {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #3273F6;
+border-radius: 8px;
+}
